@@ -51,4 +51,5 @@ function displayGifs(gifs) {
     results.appendChild(gifCard);
 
   });
+  // Final project cleanup
 }
