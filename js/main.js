@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event) {
     results.innerHTML = "<p>Please type something to search.</p>";
     return;
   }
-// Fetches GIF data from the API
+  // Fetches GIF data from the API
   getGifs(searchTerm);
 });
 
@@ -34,7 +34,7 @@ function getGifs(searchTerm) {
       console.log(error);
     });
 }
-
+// Displays GIF results on the page
 function displayGifs(gifs) {
   results.innerHTML = "";
 
