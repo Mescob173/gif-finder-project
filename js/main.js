@@ -5,6 +5,7 @@ const results = document.querySelector("#results");
 
 const apiKey = "xxEQJJhqCJH4wc09nuyxwTa1abnfIFn6";
 
+// Handles form submission
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
