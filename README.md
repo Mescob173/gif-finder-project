@@ -28,3 +28,8 @@ Gif Finder is a responsive web application that allows users to search for GIFs 
 
 ## Author
 Created by Manuela Escobar
+
+## Features
+- Responsive design
+- GIF search functionality
+- Mobile-friendly layout
