@@ -1,3 +1,4 @@
+// Handles form submission
 const form = document.querySelector("#search-form");
 const input = document.querySelector("#search-input");
 const results = document.querySelector("#results");
@@ -47,5 +48,6 @@ function displayGifs(gifs) {
     gifCard.appendChild(img);
 
     results.appendChild(gifCard);
+
   });
 }
