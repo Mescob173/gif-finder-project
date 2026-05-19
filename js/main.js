@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event) {
     results.innerHTML = "<p>Please type something to search.</p>";
     return;
   }
-
+// Fetches GIF data from the API
   getGifs(searchTerm);
 });
 
